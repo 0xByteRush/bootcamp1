@@ -1,0 +1,87 @@
+Linux Fundamentals – Practice Tasks
+===================================
+
+Objective:
+Complete all tasks in order using only the terminal.
+
+-----------------------------------
+TASK 1 – Getting Help
+-----------------------------------
+1. Open the manual page for the "ls" command.
+2. Exit the manual page.
+3. Show short help for "ls" using the -h flag.
+4. Show detailed help for "ls" using the --help flag.
+5. Go to https://explainshell.com/ and paste any command of your choice.
+   Observe how it is broken down.
+
+-----------------------------------
+TASK 2 – Navigation
+-----------------------------------
+1. Display your current working directory.
+2. List the contents of your current directory.
+3. List the contents again using long listing format.
+4. List the contents including hidden files.
+5. Change your directory to /tmp.
+6. Return to your home directory.
+
+-----------------------------------
+TASK 3 – Creating a Workspace
+-----------------------------------
+1. In your home directory, create a folder called "lab01".
+2. Change into the "lab01" directory.
+3. Confirm your location and list the contents.
+
+-----------------------------------
+TASK 4 – Files and Directories
+-----------------------------------
+1. Inside "lab01", create two empty files: notes.txt and todo.txt.
+2. Create a directory named "projects".
+3. Inside "projects", create a nested path "2025/reports" using one command.
+4. List everything in long format including hidden files.
+
+-----------------------------------
+TASK 5 – Move and Rename
+-----------------------------------
+1. Rename "todo.txt" to "tasks.txt".
+2. Move "tasks.txt" into the "projects" directory.
+3. Verify that it was moved correctly.
+
+-----------------------------------
+TASK 6 – Copying
+-----------------------------------
+1. Copy notes.txt to notes_backup.txt.
+2. Copy the entire "projects" directory to "projects_backup".
+3. Verify that the backup directory contains the same structure.
+
+-----------------------------------
+TASK 7 – nano Editor
+-----------------------------------
+1. Open notes.txt using nano.
+2. Add at least three lines of text.
+3. Use Ctrl + W to search for a word you typed.
+4. Save the file with Ctrl + O.
+5. Exit nano with Ctrl + X.
+
+-----------------------------------
+TASK 8 – Viewing & Filtering
+-----------------------------------
+1. Display the contents of notes.txt.
+2. Use a pipeline to show only lines that contain a specific word.
+3. If no lines appear, modify the file and try again.
+
+-----------------------------------
+TASK 9 – Searching with find
+-----------------------------------
+1. Search your home directory for "notes.txt".
+2. Search your home directory for all .txt files.
+3. Search the entire system for .conf files and hide errors using redirection.
+
+-----------------------------------
+TASK 10 – Final Challenge
+-----------------------------------
+1. Create a new directory called "final_lab".
+2. Inside it, create a.txt, b.txt, and c.txt.
+3. Edit a.txt with nano and add at least five lines of text.
+4. Use a pipeline to show lines containing the word "the" (or any word you choose).
+5. Copy the entire folder to "final_backup".
+6. Use find to confirm that b.txt exists in both the original and the backup.
